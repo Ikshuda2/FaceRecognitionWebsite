@@ -1,0 +1,159 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+ 
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+  }
+  
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px rgb(136, 136, 140);
+    border-radius: 50px;
+}
+
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.nav-list li{
+list-style: none;
+padding: 25px 30px;
+
+}
+
+.nav-list li a:hover{
+text-decoration: none;
+color: rgb(183, 162, 162);
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    }
+
+.rightNav {
+    width: 30%;
+    text-align: right;
+   padding: 0 23px;
+}
+
+.background{
+   background: rgba(0, 0, 0, 0.7) url("/Images/abstract-6151115.jpg");
+   background-size: cover;
+   background-blend-mode: darken;
+ 
+
+}
+
+
+.d-block w-100{
+    height: 50%;
+}
+
+.firstSection{
+height: 120vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text-big{
+    font-size: 35px;
+
+}
+
+.text-small{
+    font-size: 19px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.btn-sm{
+    padding: 6px 10px;
+    margin: 7px 3px;
+    vertical-align: middle;
+}
+
+.text-footer {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 3px;
+}
+
+#video {
+    align-items: center;
+    width: 50%;
+    max-width: 300px;
+   
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5)
+}
+
+ 
